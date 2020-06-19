@@ -120,10 +120,20 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Base\BaseController.cs" />
+    <Compile Include="Controllers\Base\Wrapper\UniqueSession.cs" />
+    <Compile Include="Controllers\Base\Wrapper\UniqueTempData.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Extenstion\HttpRequestExtention.cs" />
+    <Compile Include="Infrastructure\GuidRouteConstraint.cs" />
+    <Compile Include="Infrastructure\Interface\IRouteConfig.cs" />
+    <Compile Include="Infrastructure\Interface\IRouteProvider.cs" />
+    <Compile Include="Infrastructure\RouteHandler\UniqueRouteHandler.cs" />
+    <Compile Include="Infrastructure\UniqueRoute.cs" />
+    <Compile Include="Infrastructure\Util\ShortGuid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
