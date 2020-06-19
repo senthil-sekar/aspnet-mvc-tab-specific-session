@@ -1,2 +1,2 @@
-# aspnet-mvc-tab-specific-session
+# ASP.NET MVC Tab Specific Session
 Sample implementation for browser tab specific session variables
